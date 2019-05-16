@@ -1,0 +1,20 @@
+body {
+    background: url("background_310965.jpg");
+}
+
+#title {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    background-color: sandybrown;
+    padding: 10px 0;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 5px;
+}
