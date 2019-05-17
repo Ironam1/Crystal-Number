@@ -15,22 +15,29 @@
     <div id="title">Crystal Game!</div>
 
     <div id="instructions">Instructions here!</div>
+    
+    <div class="wins box">
+        <div id="comp-score">Computer score Here!</div>
+    </div>
+    
+    <div class="box">
 
-    <div id="comp-score">Computer score Here!</div>
-
-    <div id="wins/losses">Wins Here!</div>
+        <div id="wins"></div> 
+        
+        <div id="losses"></div>
+    </div>
 
     <div class="crystals">Crystal buttons Here!</div>
-        <div class="button" id="one"> 
+        <div id="one" type="button"> 
             <img src="assets/images/crystal1.jpeg">
         </div>
-        <div class="button" id="two">
-                <img src="assets/images/crystal2.jpeg">
+        <div id="two" type="button">
+            <img src="assets/images/crystal2.jpeg">
         </div>
-        <div class="button" id="three">
+        <div id="three" type="button">
                 <img src="assets/images/crystal3.jpeg">
         </div>
-        <div class="button" id="four">
+        <div id="four" type="button">
                 <img src="assets/images/crystal4.jpg">
         </div>
 
@@ -39,7 +46,7 @@
     <div id="user-score">User Score Here!</div>
 <script>
 startGame();
-setDisplay();
+playGame();
 </script>
 
 </body>
