@@ -53,4 +53,20 @@ h3 {
 
 #crystals {
     clear: left;
+    height: 105px;
+}
+
+#score {
+    background: bisque;
+    margin-top: 10px;
+    width: 126px;
+}
+
+#user-score {
+    background: bisque;
+    margin-top: 10px;
+    text-align: center;
+    width: 126px;
+    height: 70px;
+    font-size: 40px;
 }

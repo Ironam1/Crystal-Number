@@ -41,7 +41,7 @@ function setDisplay() {
 function win () {
     alert("YOU WIN!");
     wins++;
-    $("#wins").text(wins);
+    $("#wins").text("Wins total: " + wins);
     startGame();
     
 }   
@@ -49,7 +49,7 @@ function win () {
 function loss () {
     alert("YOU LOSE!");
     losses++;
-    $("#losses").text(losses);
+    $("#losses").text("Loss total: " + losses);
     startGame();
     
 }
@@ -98,15 +98,3 @@ function playGame () {
     
     })
 }
-
-    //this will assign the values to each crystal
-    
-    //this will add consecutively the total for each click on the crystal
-//add function?
-    
-
-//function to compare user total to target number
-    //if user total = target number user wins, if user total is more than 
-    //target user looses
-
-//the game will reset on win or loss but retain their totals
