@@ -20,6 +20,7 @@ function startGame () {
     crystal4 = Math.floor((Math.random() * 3) + 7);
     console.log(crystal1);
     userTotal = 0;
+    console.log("start " + userTotal);
     setDisplay();
     playGame(); 
 }
@@ -28,6 +29,7 @@ function startGame () {
 
 //function setDisplay to reset target number and user total
 function setDisplay() {
+    userTotal = 0;
     $("#comp-score").html(targetNumber);
     $("#user-score").html(userTotal);
     console.log("middle " + userTotal);
@@ -90,6 +92,7 @@ function playGame () {
             } else if (userTotal > targetNumber) {
                 loss();
         }
+    
     })
 }
 

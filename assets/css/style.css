@@ -18,3 +18,23 @@ img {
     float: left;
     margin: 5px;
 }
+
+#instructions {
+    background: grey;
+    color: aliceblue;
+    width: 348px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+#comp-score {
+    background: darkseagreen;
+    padding: 20px;
+    width: 45px;
+    font-size: 29px;
+    color: cornflowerblue;
+    text-align: center;
+}
