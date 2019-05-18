@@ -38,3 +38,19 @@ h3 {
     color: cornflowerblue;
     text-align: center;
 }
+
+#wins-box {
+    height: 77px;
+}
+
+#comp-score {
+    float: left;
+}
+
+#box {
+    float: left;
+}
+
+#crystals {
+    clear: left;
+}

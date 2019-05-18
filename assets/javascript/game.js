@@ -14,6 +14,10 @@ var losses = 0;
 function startGame () {
     targetNumber = Math.floor((Math.random() * 31) + 20);
     console.log(targetNumber);
+    crystal1 = 0;
+    crystal2 = 0;
+    crystal3 = 0;
+    crystal4 = 0;
     crystal1 = Math.floor((Math.random() * 5) + 6);
     crystal2 = Math.floor((Math.random() * 3) + 3);
     crystal3 = Math.floor((Math.random() * 3) + 1);
@@ -21,8 +25,7 @@ function startGame () {
     console.log(crystal1);
     userTotal = 0;
     console.log("start " + userTotal);
-    setDisplay();
-    playGame(); 
+    setDisplay();  
 }
 
     
@@ -40,7 +43,7 @@ function win () {
     wins++;
     $("#wins").text(wins);
     startGame();
-    setDisplay();
+    
 }   
     
 function loss () {
@@ -48,7 +51,7 @@ function loss () {
     losses++;
     $("#losses").text(losses);
     startGame();
-    setDisplay();
+    
 }
 console.log("next " + crystal1)
     //function playGame each click on cyrstal will add consecutively
