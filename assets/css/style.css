@@ -1,72 +1,72 @@
 body {
-    background: url("background_310965.jpg");
+  background: url("background_310965.jpg");
 }
 
 #title {
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    width: fit-content;
-    background-color: sandybrown;
-    padding: 10px 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  width: fit-content;
+  background-color: sandybrown;
+  padding: 10px 0;
 }
 
 img {
-    width: 100px;
-    height: 100px;
-    float: left;
-    margin: 5px;
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 5px;
 }
 
 #instructions {
-    background: grey;
-    color: aliceblue;
-    width: 348px;
-    text-align: center;
+  background: grey;
+  color: aliceblue;
+  width: 348px;
+  text-align: center;
 }
 
 h3 {
-    text-align: center;
+  text-align: center;
 }
 
 #comp-score {
-    background: darkseagreen;
-    padding: 20px;
-    width: 45px;
-    font-size: 29px;
-    color: cornflowerblue;
-    text-align: center;
+  background: darkseagreen;
+  padding: 20px;
+  width: 45px;
+  font-size: 29px;
+  color: cornflowerblue;
+  text-align: center;
 }
 
 #wins-box {
-    height: 77px;
+  height: 77px;
 }
 
 #comp-score {
-    float: left;
+  float: left;
 }
 
 #box {
-    float: left;
+  float: left;
 }
 
 #crystals {
-    clear: left;
-    height: 105px;
+  clear: left;
+  height: 105px;
 }
 
 #score {
-    background: bisque;
-    margin-top: 10px;
-    width: 126px;
+  background: bisque;
+  margin-top: 10px;
+  width: 126px;
 }
 
 #user-score {
-    background: bisque;
-    margin-top: 10px;
-    text-align: center;
-    width: 126px;
-    height: 70px;
-    font-size: 40px;
+  background: bisque;
+  margin-top: 10px;
+  text-align: center;
+  width: 126px;
+  height: 70px;
+  font-size: 40px;
 }
