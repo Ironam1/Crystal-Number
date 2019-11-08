@@ -12,7 +12,6 @@ var losses = 0;
 //this will set the target number and set values for the crystals
 function startGame() {
   targetNumber = Math.floor(Math.random() * 31 + 20);
-  console.log(targetNumber);
   crystal1 = 0;
   crystal2 = 0;
   crystal3 = 0;
@@ -21,9 +20,7 @@ function startGame() {
   crystal2 = Math.floor(Math.random() * 3 + 3);
   crystal3 = Math.floor(Math.random() * 3 + 1);
   crystal4 = Math.floor(Math.random() * 3 + 7);
-  console.log(crystal1);
   userTotal = 0;
-  console.log("start " + userTotal);
   setDisplay();
 }
 
@@ -32,7 +29,6 @@ function setDisplay() {
   userTotal = 0;
   $("#comp-score").html(targetNumber);
   $("#user-score").html(userTotal);
-  console.log("middle " + userTotal);
 }
 
 function win() {
@@ -41,21 +37,20 @@ function win() {
   $("#wins").text("Wins total: " + wins);
   startGame();
 }
-
 function loss() {
   alert("YOU LOSE!");
   losses++;
   $("#losses").text("Loss total: " + losses);
   startGame();
 }
-console.log("next " + crystal1);
+
 //function playGame each click on cyrstal will add consecutively
 function playGame() {
   $("#one").on("click", function() {
     userTotal = userTotal + crystal1;
-    console.log("new " + userTotal);
     $("#user-score").text(userTotal);
     if (userTotal === targetNumber) {
+      $("#user-score").text(userTotal);
       win();
     } else if (userTotal > targetNumber) {
       loss();
@@ -63,9 +58,9 @@ function playGame() {
   });
   $("#two").on("click", function() {
     userTotal = userTotal + crystal2;
-    console.log("new " + userTotal);
     $("#user-score").text(userTotal);
     if (userTotal === targetNumber) {
+      $("#user-score").text(userTotal);
       win();
     } else if (userTotal > targetNumber) {
       loss();
@@ -73,9 +68,9 @@ function playGame() {
   });
   $("#three").on("click", function() {
     userTotal = userTotal + crystal3;
-    console.log("new " + userTotal);
     $("#user-score").text(userTotal);
     if (userTotal === targetNumber) {
+      $("#user-score").text(userTotal);
       win();
     } else if (userTotal > targetNumber) {
       loss();
@@ -83,9 +78,9 @@ function playGame() {
   });
   $("#four").on("click", function() {
     userTotal = userTotal + crystal4;
-    console.log("new " + userTotal);
     $("#user-score").text(userTotal);
     if (userTotal === targetNumber) {
+      $("#user-score").text(userTotal);
       win();
     } else if (userTotal > targetNumber) {
       loss();
